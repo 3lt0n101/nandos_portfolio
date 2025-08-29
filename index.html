@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nando's Auto Spray and PanelBeaters</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Oswald:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav>
+    <a href="#hero">Home</a>
+    <a href="#services">Services</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#why">Why Choose Us</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="hero" class="hero">
+    <h1>We Make Your Car Look Brand New</h1>
+    <p>Expert car painting, panel beating, and body repairs – no matter the damage</p>
+    <button onclick="scrollToSection('contact')">Contact Us</button>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="services">
+    <div class="service"><img src="images/placeholder.png" alt="Car Painting"><h3>Car Painting</h3><p>Full-body, custom colors, touch-ups</p></div>
+    <div class="service"><img src="images/placeholder.png" alt="Panel Beating"><h3>Panel Beating</h3><p>Dent removal, body straightening</p></div>
+    <div class="service"><img src="images/placeholder.png" alt="Bumper & Light"><h3>Bumper & Light Replacement</h3><p>Quick and precise replacements</p></div>
+    <div class="service"><img src="images/placeholder.png" alt="Scratch & Dent"><h3>Scratch & Dent Repairs</h3><p>Restore your car to perfection</p></div>
+    <div class="service"><img src="images/placeholder.png" alt="Rust Removal"><h3>Rust Removal & Restoration</h3><p>Protect and revive your car's body</p></div>
+  </section>
+
+  <!-- Gallery Section -->
+  <section id="gallery" class="gallery">
+    <h2>Before & After Gallery</h2>
+    <div class="slider-container">
+      <button class="prev">&#10094;</button>
+      <div class="gallery-slider">
+        <img src="images/image1A.jpeg" alt="Job 1 Before">
+        <img src="images/image1B.jpeg" alt="Job 1 After">
+        <img src="images/image2A.jpeg" alt="Job 2 Before">
+        <img src="images/image2B.jpeg" alt="Job 2 After">
+        <img src="images/image3A.jpeg" alt="Job 3 Before">
+        <img src="images/image3B.jpeg" alt="Job 3 After">
+      </div>
+      <button class="next">&#10095;</button>
+    </div>
+  </section>
+
+  <!-- Why Choose Us -->
+  <section id="why" class="why">
+    <h2>Why Choose Us</h2>
+    <ul>
+      <li>Affordable</li>
+      <li>Quick</li>
+      <li>Quality Guaranteed</li>
+      <li>Experienced Team</li>
+    </ul>
+  </section>
+
+  <!-- Testimonials -->
+  <section class="testimonials">
+    <h2>Testimonials</h2>
+    <div class="testimonial"><p>"Amazing service! My car looks brand new."</p><small>- Happy Customer</small></div>
+    <div class="testimonial"><p>"Quick and professional work, highly recommend."</p><small>- Satisfied Client</small></div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <p>Call us: <a href="tel:+27715780353">071 578 0353</a> | <a href="https://wa.me/27715780353" target="_blank">WhatsApp</a></p>
+    <p>Email: <a href="mailto:info@nandosautoservice.com">info@nandosautoservice.com</a></p>
+    <p>Location: North West, Marikana</p>
+    <form onsubmit="alert('Message sent!'); return false;">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Nando's Auto Spray and PanelBeaters</p>
+    <a href="#">Facebook</a>
+    <a href="#">Instagram</a>
+    <a href="#">Twitter</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
